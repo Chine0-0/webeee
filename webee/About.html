@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <style>
+
+  </style>
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<!-- Menu -->
+
+
+
+</head>
+<body>
+
+
+  <!-- Header section -->
+  <header class="header">
+    <div class="menu" id="menu">
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="more.html">More</a>
+      
+</div>
+    <h1>About Me</h1>
+    <p>Welcome to my personal website!</p>
+  </header>
+
+  <!-- Main content section -->
+  <main class="main-content">
+    <section class="about-section">
+      <h2>About</h2>
+      <p>Hello there! I'm Chine Bruce G. Cabungcal, an 18-year-old currently diving headfirst into the world of computer science at the University of Batangas. You can find me residing in the lively neighborhood of Brgy. Sampaga, nestled within the vibrant city of Batangas City. Passionate about all things tech-related, I'm thrilled to be pursuing my Bachelor's degree in Computer Science. I'm on a mission to unravel the complexities of programming, software development, and the ever-expanding universe of technology. I'm dedicated, eager to learn, and excited to make my mark in the dynamic realm of computer science. Here's to embracing the challenges and discoveries that lie ahead!.</p>
+    </section>
+
+    <section class="interests-section">
+      <h2>Interests</h2>
+      <p>
+
+        My interests revolve around programming and web development, delving into the creation of websites and coding to materialize innovative ideas. Beyond technology, I have a profound love for playing the guitar. Music is my sanctuary, and picking up the guitar allows me to express myself creatively. Additionally, I enjoy basketball, finding both excitement and camaraderie on the court, as well as singing to further explore my musical passions.</p>
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact</h2>
+      <p>You can contact me at:</p>
+      <div class="social-icons">
+        <a href="https://twitter.com/CabungcalChine" target="_blank" class="social-icon">
+          <img src="twiticon.png" alt="Twitter">
+        </a>
+        <a href="https://web.facebook.com/chineee.31" target="_blank" class="social-icon">
+          <img src="fbbicon.png" alt="Facebook">
+        </a>
+        <a href="mailto:chinecabungcal33@gmail.com" class="social-icon">
+          <img src="gmailicon.png" alt="Gmail">
+        </a>
+        <a href="https://instagram.com/your_instagram_profile" target="_blank" class="social-icon">
+          <img src="igicon.png" alt="Instagram">
+        </a>
+        <a href="https://telegram.me/your_telegram_profile" target="_blank" class="social-icon">
+          <img src="tgicon.png" alt="Telegram">
+        </a>
+      </div>
+    </footer>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <p>&copy; 2023 Chine Bruce G. Cabungcal</p>
+  </footer>
+
+</body>
+<style>
+ 
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+/* Header styles */
+.header {
+background-image: url("9286854.gif");
+color: #fff;
+text-align: center;
+padding: 60px 0;
+padding:310px;
+padding-top: 200px  ;
+padding-bottom: 100px;
+
+}
+
+.header h1 {
+font-size: 3em;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header p {
+font-size: 1.2em;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Main content styles */
+.main-content {
+max-width: 900px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+.about-section,
+.interests-section,
+.contact-section {
+margin-bottom: 40px;
+}
+
+.about-section h2,
+.interests-section h2,
+.contact-section h2 {
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+text-align: center;
+padding: 20px 0;
+background-color: rgb(52, 0, 14);
+color: #fff;
+}
+.social-icons {
+display: flex;
+justify-content: center; /* Align icons in the center */
+align-items: center;
+}
+
+.social-icon {
+margin: 0 5px; /* Adjust the horizontal space between icons */
+}
+
+.social-icon img {
+width: 30px; /* Set the desired width */
+height: auto; /* Maintain aspect ratio */
+
+
+}
+.menu-btn {
+display:block;
+position: absolute;
+top: 40px;
+left: 10px;
+width: 40px;
+height: 40px;
+background-color: #333;
+color: rgb(255, 255, 255);
+text-align: center;
+line-height: 40px;
+cursor: pointer;
+}
+.menu-btn :hover{
+background-color: purple;
+}
+
+.menu {
+ 
+display: none;
+position: absolute;
+top: 40px;
+left: 100px;
+background-color: rgb(37, 0, 59);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+padding: 10px;
+
+}
+
+.menu a {
+display: block;
+text-decoration: none;
+color: #ffffff;
+padding: 8px 0;
+}
+
+
+
+</style>
+<script src="script.js">
+  
+function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+
+</script>
+
+</html>
